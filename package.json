@@ -14,5 +14,8 @@
     "mongoose": "^6.1.1",
     "nodemon": "^2.0.15"
   },
+  "scripts": {
+    "start": "node index.js"
+  },
   "private": true
 }
