@@ -35,7 +35,7 @@ const test = (db) => {
 }
 
 getDb().then(
-    db => test(db)
+    db => {console.log(db);test(db)}
 ).catch(
     err => console.log(err)
 )
